@@ -1,8 +1,8 @@
 /*  */
 
 
-//const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTKQbAIEg3GdlydA-MgWGfXpmNH8v_zodODQz03pCLMxCqWgmjT56-BoM8eCdZOFApl_kRN0QFuGRUB/pub?gid=1640920593&single=true&output=csv";
-const CSV_URL = "http://192.168.100.160:5500/test.csv";
+const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTKQbAIEg3GdlydA-MgWGfXpmNH8v_zodODQz03pCLMxCqWgmjT56-BoM8eCdZOFApl_kRN0QFuGRUB/pub?gid=1640920593&single=true&output=csv";
+//const CSV_URL = "http://192.168.100.160:5500/test.csv";
 
 var proc = [];
 
