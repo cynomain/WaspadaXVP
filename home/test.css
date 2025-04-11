@@ -1,0 +1,93 @@
+.seat-selection {
+  display: grid;
+  grid-template-columns: repeat(35, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+}
+
+.blank-seat {
+  opacity: 0;
+  aspect-ratio: 1;
+}
+
+.debug-seat {
+  background-color: red;
+  opacity: 0.5;
+}
+
+.seat-btn {
+  aspect-ratio: 1;
+}
+
+.sponsor-seat {
+  background-color: gold;
+}
+
+.vip-seat {
+  background-color: lightblue;
+}
+
+.taken-seat {
+  background-color: rgb(241, 108, 108);
+}
+
+.pending-seat {
+  background-color: rgb(233, 148, 117);
+}
+
+.overdue-seat {
+  background-color: gray;
+}
+
+.selected-seat {
+    border: 8px solid orchid;
+}
+
+.stage {
+  width: 100%;
+  text-align: center;
+  background-color: orange;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  font-size: 2.5em;
+}
+
+.parent {
+  width: fit-content;
+  padding: 4em;
+
+  & > .entrance {
+    z-index: 100;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    bottom: 4.5em;
+    font-weight: bolder;
+    font-size: 2.5em;
+  }
+}
+
+.zoom {
+    outline: 2px solid white;
+    max-width: 80dvw;
+    max-height: 50dvh;
+    overflow: hidden;
+}
+
+input {
+    font-size: 1.25em;
+}
+
+.vip-block {
+    color: lightblue;
+}
+
+button {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+.stick-to-bottom {
+    margin-bottom: 0;
+}

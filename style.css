@@ -1,0 +1,42 @@
+:root {
+  --c-darkest: #141414;
+  --c-dark: #221d19;
+  --c-light: rgb(224, 187, 150);
+  --c-lightest: #e0d1b6;
+
+  --rgb-darkest: 20, 20, 20;
+  --rgb-dark: 34, 29, 25;
+  --rgb-light: 219, 166, 110;
+  --rgb-lightest: 200, 177, 136;
+}
+
+html {
+  color-scheme: only light;
+  font-size: 100%;
+  font-optical-sizing: auto;
+  background-color: var(--c-light);
+  color: var(--c-dark);
+  font-family: "IBM Plex Mono", monospace;
+  height: 100dvh;
+  width: 100dvw;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+

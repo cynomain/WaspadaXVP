@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="home/home.css" />
+    <link rel="stylesheet" href="home/test.css" />
+    <link rel="stylesheet" href="home/text_animation.css" />
+    <script src="scripts/base.js"></script>
+    <script src="scripts/papaparse.min.js"></script>
+    <script src="scripts/panzoom2.js"></script>
+  </head>
+  <body>
+    <!--HOME SCREEN-->
+    <!--div class="main-title glow">
+      <h2>TEATER</h2>
+      <h1>XAVEPA</h1>
+      <h3>by WASPADA</h3>
+    </div-->
+
+    <h1>Si Penjahit</h1>
+    <input type="text" id="name" placeholder="Enter your name" />
+    <input type="number" id="number" placeholder="Enter your phone number" />
+    <p>Select your seats</p>
+    <div class="zoom">
+      <div class="parent">
+        <div class="stage">STAGE</div>
+        <div class="seat-selection"></div>
+        <p class="entrance">Entrance</p>
+      </div>
+    </div>
+    <p class="stick-to-bottom">Pricing:</p>
+    <p><span class="vip_block">█</span> VIP: 30k | <span>█</span> Regular: 25k</p>
+    
+    <p class="stick-to-bottom">Selected Seats: </p>
+    <p id="selected-seats"></p>
+
+    <p class="stick-to-bottom">Total Price: </p>
+    <p id="total-price"></p>
+    
+    <button id="confirm">Confirm</button>
+    
+
+    <script src="home/home.js"></script>
+    <script src="home/text_animation.js"></script>
+  </body>
+</html>
